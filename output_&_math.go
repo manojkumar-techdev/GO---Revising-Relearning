@@ -26,3 +26,16 @@ import "fmt"
 func main() {
     fmt.Print("I Love GO") 
 }
+
+
+// arithmetic operators in GO
+package main
+import "fmt"
+
+func main() {
+
+    fmt.Print(13+3)
+    fmt.Print(13-3)
+    fmt.Print(13*3)
+    fmt.Print(13/3)
+}
