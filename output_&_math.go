@@ -75,3 +75,14 @@ func main() {
     fmt.Println(2 * (11 + 13))
 }
 
+
+// inserting space between outputs
+
+package main
+import "fmt"
+
+func main() {
+    fmt.Print(3 + 4)
+    fmt.Print(" ")
+    fmt.Print(2 + 1)
+}
