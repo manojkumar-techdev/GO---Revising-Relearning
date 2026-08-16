@@ -29,6 +29,7 @@ func main() {
 
 
 // arithmetic operators in GO
+
 package main
 import "fmt"
 
@@ -42,11 +43,23 @@ func main() {
 
 
 // multiple outputs in GO
+
 package main
 import "fmt"
 
 func main() {
 	fmt.Print(3 + 4)
 	fmt.Print(2 + 1)
+}
+
+
+// output in separate lines
+package main
+import "fmt"
+
+func main() {
+
+    fmt.Println(3 + 4)
+    fmt.Println(2 + 1)
 }
 
