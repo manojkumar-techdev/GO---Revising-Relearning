@@ -39,3 +39,14 @@ func main() {
     fmt.Print(13*3)
     fmt.Print(13/3)
 }
+
+
+// multiple outputs in GO
+package main
+import "fmt"
+
+func main() {
+	fmt.Print(3 + 4)
+	fmt.Print(2 + 1)
+}
+
