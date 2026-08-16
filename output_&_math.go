@@ -54,6 +54,7 @@ func main() {
 
 
 // output in separate lines
+
 package main
 import "fmt"
 
@@ -61,5 +62,16 @@ func main() {
 
     fmt.Println(3 + 4)
     fmt.Println(2 + 1)
+}
+
+
+// area and perimeter of rectangle
+
+package main
+import "fmt"
+
+func main() {
+    fmt.Println(11 * 13)         
+    fmt.Println(2 * (11 + 13))
 }
 
