@@ -146,3 +146,15 @@ func main() {
 	fmt.Print(name)
 	fmt.Print(temperature)
 }
+
+
+// adding variables
+
+package main
+import "fmt"
+
+func main() {
+    a := 23 
+    b := 20 
+    fmt.Println(a + b) 
+}
