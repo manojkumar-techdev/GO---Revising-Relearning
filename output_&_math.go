@@ -112,6 +112,7 @@ func main() {
 
 
 // extra indenting cause no error - example 2
+
 import "fmt"
 
 func main() {
@@ -119,3 +120,17 @@ func main() {
 
         fmt.Print(11)
 }
+
+
+// declrare variable - explicit variable declaration
+
+import "fmt"
+func main() {
+	age := 30
+	name := "John Doe"
+	temperature := 25.5
+	fmt.Print(age)
+	fmt.Print(name)
+	fmt.Print(temperature)
+}
+
