@@ -86,3 +86,14 @@ func main() {
     fmt.Print(" ")
     fmt.Print(2 + 1)
 }
+
+
+// text between outputs
+package main
+import "fmt"
+
+func main() {
+    fmt.Print(3 + 4)
+    fmt.Print(" and ")
+    fmt.Print(2 + 1)
+}
