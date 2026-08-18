@@ -97,3 +97,13 @@ func main() {
     fmt.Print(" and ")
     fmt.Print(2 + 1)
 }
+
+
+// extra indenting cause no error - example 1
+package main
+import "fmt"
+
+func main() {
+	fmt.Print(12)
+        fmt.Print(11)
+}
