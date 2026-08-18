@@ -89,6 +89,7 @@ func main() {
 
 
 // text between outputs
+
 package main
 import "fmt"
 
@@ -100,10 +101,21 @@ func main() {
 
 
 // extra indenting cause no error - example 1
+
 package main
 import "fmt"
 
 func main() {
 	fmt.Print(12)
+        fmt.Print(11)
+}
+
+
+// extra indenting cause no error - example 2
+import "fmt"
+
+func main() {
+	fmt.Print(12)
+
         fmt.Print(11)
 }
