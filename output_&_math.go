@@ -126,6 +126,19 @@ func main() {
 
 import "fmt"
 func main() {
+	var age int := 30
+	var name string := "John Doe"
+	var temperature float64 := 25.5
+	fmt.Print(age)
+	fmt.Print(name)
+	fmt.Print(temperature)
+}
+
+
+// type inference - explicit variable declaration
+
+import "fmt"
+func main() {
 	age := 30
 	name := "John Doe"
 	temperature := 25.5
@@ -133,4 +146,3 @@ func main() {
 	fmt.Print(name)
 	fmt.Print(temperature)
 }
-
